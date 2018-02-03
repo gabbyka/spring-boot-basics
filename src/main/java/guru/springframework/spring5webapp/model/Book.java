@@ -31,7 +31,11 @@ public class Book {
     private Set<Author> authors = new HashSet<>();
 
     
-    public Book(String title, String isbn, Publisher publisher) {
+    public Book() {
+		super();
+	}
+
+	public Book(String title, String isbn, Publisher publisher) {
 		super();
 		this.title = title;
 		this.isbn = isbn;

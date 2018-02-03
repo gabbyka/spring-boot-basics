@@ -23,7 +23,11 @@ public class Author {
     private Set<Book> books = new HashSet<>();
 
     
-    public Author(String firstName, String lastName) {
+    public Author() {
+		super();
+	}
+
+	public Author(String firstName, String lastName) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
